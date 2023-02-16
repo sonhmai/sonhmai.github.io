@@ -1,7 +1,6 @@
 ---
 title: 'Monix Async, MDC, Thread Local, Correlation ID in Scala'
 date: 2023-02-16
-permalink: /posts/monixmdc/
 tags:
   - monix
   - http4s
