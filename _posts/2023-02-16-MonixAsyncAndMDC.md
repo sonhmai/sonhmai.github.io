@@ -21,6 +21,7 @@ the computation on task.
 be manually propagated (copied)
 - Avoid using Task and converting to cats IO at the end of your program (e.g. HTTP server layer),
 using Task only helps because Monix has a TracingSchedule
+- [Sample code](https://github.com/sonhmai/monix-mdc-log4j)
 
 
 # Problem
@@ -42,10 +43,6 @@ We observed:
 
 Assumptions
 - MDC is not properly propagated between requests
-
-
-
-# Investigation
 
 
 # Solution
