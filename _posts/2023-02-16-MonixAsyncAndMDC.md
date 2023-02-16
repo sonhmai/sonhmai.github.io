@@ -1,6 +1,7 @@
 ---
 title: 'Monix Async, MDC, Thread Local, Correlation ID in Scala'
 date: 2023-02-16
+permalink: /software/monix-async-and-mdc-in-scala
 tags:
   - monix
   - http4s
@@ -50,8 +51,10 @@ Assumptions
 # Solution
 ## 1-Base your computation on monix `Task`, avoid converting it to cats `IO`
 
-What did not work when converting Task to IO at HTTP layer
+What did not work when converting `Task` to `IO` at HTTP layer
 - MDC state is global and overwritten by concurrent requests
+
+
 ```
 val httpApp: HttpApp[IO] = ???
 val resource = BlazeServerBuilder[IO](scheduler)
@@ -80,7 +83,7 @@ If you have to use `Future` together with monix `Task` or `Observable`
 Future to add MDC in Thread Local to the executing Future.
 
 
-what does not work
+What does not work
 ```
 // here we use Observable, same thing applies for Task
 Observable.fromFuture {
@@ -93,7 +96,7 @@ Observable.fromFuture {
 ```
 
 
-what works
+What works
 ``` 
 Observable.fromFuture {
   Thread.sleep(1000)
