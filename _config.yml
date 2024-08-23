@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Son Mai / Blogs"
+title                    : "Sonny / Blogs"
 title_separator          : "-"
-name                     : &name "Son Mai"
-description              : &description "personal description"
+name                     : &name "Sonny"
+description              : &description "curious person"
 url                      : https://sonhmai.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "sonhmai/sonhmai.github.io"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Son Mai"
+  name             : "Sonny"
   avatar           : "profile.png"
   bio              : "A curious person"
   location         : "Vietnam"
