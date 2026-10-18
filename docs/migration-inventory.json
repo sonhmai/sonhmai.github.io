@@ -1,0 +1,896 @@
+{
+  "baseline": "7a1cd79",
+  "themeRevision": "35cfa7fbe0b897306d27670d3819e55d5205f3dd",
+  "content": [
+    {
+      "source": "_posts/2023-02-16-MonixAsyncAndMDC.md",
+      "target": "src/content/posts/monixasyncandmdc.md",
+      "url": "/software/monix-async-and-mdc-in-scala",
+      "kind": "article",
+      "sha256": "803b4c1a7ff24ffb4638c9c4f81536dc90d3e4b15be3206e7467bc1412ab15a8",
+      "rewrites": [],
+      "dateBasis": "Original front matter"
+    },
+    {
+      "source": "_posts/2023-03-09-ClassTagTypeErasure.md",
+      "target": "src/content/posts/classtagtypeerasure.md",
+      "url": "/software/scala-classtag-and-type-erasure",
+      "kind": "article",
+      "sha256": "38aa3f1688d7159a62f21a2ea3e85e4c1dfcdfcb22f3674701de95ace30b483f",
+      "rewrites": [],
+      "dateBasis": "Original front matter"
+    },
+    {
+      "source": "_posts/2023-03-11-RocksDB.md",
+      "target": "src/content/posts/rocksdb.md",
+      "url": "/software/rocksdb",
+      "kind": "article",
+      "sha256": "be36a6c940d833e5dc7589b29b7d4b1ce29733107435d098c5a03c42e7ddb859",
+      "rewrites": [],
+      "dateBasis": "Original front matter"
+    },
+    {
+      "source": "_posts/2023-03-23-SparkCRC.md",
+      "target": "src/content/posts/sparkcrc.md",
+      "url": "/software/spark-crc",
+      "kind": "article",
+      "sha256": "d9b1abb5a50f4af80b4486e09ddc3bbc7eeceeb0e177f6c2b63a8efe1cbedb38",
+      "rewrites": [
+        {
+          "from": "](SparkCRC/",
+          "to": "](/SparkCRC/"
+        }
+      ],
+      "dateBasis": "Original front matter"
+    },
+    {
+      "source": "_posts/2024-08-23-TwoPhaseCommit.md",
+      "target": "src/content/posts/twophasecommit.md",
+      "url": "/TwoPhaseCommit/",
+      "kind": "article",
+      "sha256": "56d0dbad99aae9b5e18b77093d952d14bee7203f475f674895f6fd33caa1693e",
+      "rewrites": [
+        {
+          "from": "![img.png](img.png)",
+          "to": "<figure class=\"missing-figure\"><figcaption>Figure unavailable in the original source: img.png</figcaption></figure>"
+        },
+        {
+          "from": "![img_1.png](img_1.png)",
+          "to": "<figure class=\"missing-figure\"><figcaption>Figure unavailable in the original source: img_1.png</figcaption></figure>"
+        },
+        {
+          "from": "![img_2.png](img_2.png)",
+          "to": "<figure class=\"missing-figure\"><figcaption>Figure unavailable in the original source: img_2.png</figcaption></figure>"
+        },
+        {
+          "from": "![img_3.png](img_3.png)",
+          "to": "<figure class=\"missing-figure\"><figcaption>Figure unavailable in the original source: img_3.png</figcaption></figure>"
+        },
+        {
+          "from": "![img_4.png](img_4.png)",
+          "to": "<figure class=\"missing-figure\"><figcaption>Figure unavailable in the original source: img_4.png</figcaption></figure>"
+        }
+      ],
+      "dateBasis": "Original front matter"
+    },
+    {
+      "source": "_pages/404.md",
+      "url": "/404.html",
+      "kind": "legacy-page",
+      "sha256": "20b4da00a99d36b83dbe29921a0fd4aebd947db2de309f34ebfd525a8aacbba7",
+      "target": "public/legacy/_pages/404.md.txt"
+    },
+    {
+      "source": "_pages/about.md",
+      "url": "/",
+      "kind": "legacy-page",
+      "sha256": "f332f08663b07b48678672754468000544a42cfac54b450093fd633ae9bfa61e",
+      "target": "public/legacy/_pages/about.md.txt"
+    },
+    {
+      "source": "_pages/archive-layout-with-content.md",
+      "url": "/archive-layout-with-content/",
+      "kind": "legacy-page",
+      "sha256": "dd31d88ac3b7453cb61b7e1302ae971f113e48f34c04793e432f3acb2cb6b2e7",
+      "target": "public/legacy/_pages/archive-layout-with-content.md.txt"
+    },
+    {
+      "source": "_pages/category-archive.html",
+      "url": "/categories/",
+      "kind": "legacy-page",
+      "sha256": "cdd3315233c218f2129a69518214637e0596eefd59e4fea490330ad9c0569761",
+      "target": "public/legacy/_pages/category-archive.html.txt"
+    },
+    {
+      "source": "_pages/collection-archive.html",
+      "url": "/collection-archive/",
+      "kind": "legacy-page",
+      "sha256": "021d926e6404335020918e763b2338a1c721b9ba503b5d8f0d5e328b421e2ad9",
+      "target": "public/legacy/_pages/collection-archive.html.txt"
+    },
+    {
+      "source": "_pages/cv.md",
+      "url": "/cv/",
+      "kind": "legacy-page",
+      "sha256": "0ba980d7b9f3960570bddc6ec92f120f43f9993e64fb4de75bcd6be568aa0b4a",
+      "target": "public/legacy/_pages/cv.md.txt"
+    },
+    {
+      "source": "_pages/markdown.md",
+      "url": "/markdown/",
+      "kind": "legacy-page",
+      "sha256": "c845ab349f59ea6908534a26f295cbcf0ad1561ab685b5dd49ae64187ca094ce",
+      "target": "public/legacy/_pages/markdown.md.txt"
+    },
+    {
+      "source": "_pages/non-menu-page.md",
+      "url": "/non-menu-page/",
+      "kind": "legacy-page",
+      "sha256": "095b02d7ae4c1153572049b715c254f2324611c6da82311a9298886b0ed42755",
+      "target": "public/legacy/_pages/non-menu-page.md.txt"
+    },
+    {
+      "source": "_pages/page-archive.html",
+      "url": "/page-archive/",
+      "kind": "legacy-page",
+      "sha256": "43c37878f0a0e7b71d8a5ff0d88c32dab29c45da6b9a62cd5456f8b7a3cdb437",
+      "target": "public/legacy/_pages/page-archive.html.txt"
+    },
+    {
+      "source": "_pages/portfolio.html",
+      "url": "/portfolio/",
+      "kind": "legacy-page",
+      "sha256": "fd8454020a4b8d75f6f0b8d880fbcb68632287df4c7209f4fe9c7771ad27d5d5",
+      "target": "public/legacy/_pages/portfolio.html.txt"
+    },
+    {
+      "source": "_pages/publications.md",
+      "url": "/publications/",
+      "kind": "legacy-page",
+      "sha256": "e070f76391785597c635eb6010f779ab66d84e24ed1dfebe79ae8d83e249e5f7",
+      "target": "public/legacy/_pages/publications.md.txt"
+    },
+    {
+      "source": "_pages/sitemap.md",
+      "url": "/sitemap/",
+      "kind": "legacy-page",
+      "sha256": "bb9bd260d92d3f84f98e1ee16983c21002c4975655dabf6840737b759a9681c2",
+      "target": "public/legacy/_pages/sitemap.md.txt"
+    },
+    {
+      "source": "_pages/software.md",
+      "url": "/software/",
+      "kind": "legacy-page",
+      "sha256": "4b3b34960ec438e10add0b40e697b79cc1f98a042b35c6e272425e43ba74c9e6",
+      "target": "public/legacy/_pages/software.md.txt"
+    },
+    {
+      "source": "_pages/tag-archive.html",
+      "url": "/tags/",
+      "kind": "legacy-page",
+      "sha256": "21382004a9af7151e2f5393039f06efdcf224695581fc269829282fee6c3d94f",
+      "target": "public/legacy/_pages/tag-archive.html.txt"
+    },
+    {
+      "source": "_pages/talkmap.html",
+      "url": "/talkmap.html",
+      "kind": "legacy-page",
+      "sha256": "af31578145bff2afc390d47e430259e61384fc557eb75a912b4d429509ef1c40",
+      "target": "public/legacy/_pages/talkmap.html.txt"
+    },
+    {
+      "source": "_pages/talks.html",
+      "url": "/talks/",
+      "kind": "legacy-page",
+      "sha256": "138b4db5cd264d497fcc0f408e3338e1364f3fd9ea3943421a3b99bb6ad7f40e",
+      "target": "public/legacy/_pages/talks.html.txt"
+    },
+    {
+      "source": "_pages/teaching.html",
+      "url": "/teaching/",
+      "kind": "legacy-page",
+      "sha256": "1bc544e3871b8104b0d6b40732fe773aca40344c861c8ed31912ca2d0b22b36c",
+      "target": "public/legacy/_pages/teaching.html.txt"
+    },
+    {
+      "source": "_pages/terms.md",
+      "url": "/terms/",
+      "kind": "legacy-page",
+      "sha256": "492f8c63b8faf5463342b7329cfcf33b2af23c36672ad9a8a051fc32831be04a",
+      "target": "public/legacy/_pages/terms.md.txt"
+    },
+    {
+      "source": "_pages/year-archive.html",
+      "url": "/year-archive/",
+      "kind": "legacy-page",
+      "sha256": "0ceed7837a8f68bf2a0386bff60eaa6d074cbfdd2ba7de006634600633421209",
+      "target": "public/legacy/_pages/year-archive.html.txt"
+    },
+    {
+      "source": "_papers/building_db_on_s3/building_database_on_s3.md",
+      "target": "src/content/posts/building-db-on-s3.md",
+      "url": "/papers/building-db-on-s3/",
+      "kind": "paper-note",
+      "sha256": "abc0a67368e196e36cbccdefa7d2b349a2ec27f7c36cbf4d7b957699323f446a",
+      "rewrites": [
+        {
+          "from": "[!img](./building_s3_running_time_txns.png)",
+          "to": "![Transaction running time](/papers-assets/building_db_on_s3/table3_building_s3_running_time_txns.png)"
+        }
+      ],
+      "dateBasis": "Last source commit timestamp, not publication date"
+    },
+    {
+      "source": "_papers/empirical_evaluation_columnar_formats/An Empirical Evaluation of Columnar Storage Formats.md",
+      "target": "src/content/posts/empirical-evaluation-columnar-formats.md",
+      "url": "/papers/empirical-evaluation-columnar-formats/",
+      "kind": "paper-note",
+      "sha256": "a7320f660e3216c2590da87f59f72b30e24fd230074ebabec787e7a9d32d6279",
+      "rewrites": [
+        {
+          "from": "](columnar_benchmark.png)",
+          "to": "](/papers-assets/empirical_evaluation_columnar_formats/columnar_benchmark.png)"
+        },
+        {
+          "from": "](columnar_benchmark_result.png)",
+          "to": "](/papers-assets/empirical_evaluation_columnar_formats/columnar_benchmark_result.png)"
+        },
+        {
+          "from": "](columnar_embedding_efficiency.png)",
+          "to": "](/papers-assets/empirical_evaluation_columnar_formats/columnar_embedding_efficiency.png)"
+        },
+        {
+          "from": "](columnar_feature_taxonomy.png)",
+          "to": "](/papers-assets/empirical_evaluation_columnar_formats/columnar_feature_taxonomy.png)"
+        },
+        {
+          "from": "](columnar_format_layout.png)",
+          "to": "](/papers-assets/empirical_evaluation_columnar_formats/columnar_format_layout.png)"
+        },
+        {
+          "from": "](columnar_gpu_decoding.png)",
+          "to": "](/papers-assets/empirical_evaluation_columnar_formats/columnar_gpu_decoding.png)"
+        },
+        {
+          "from": "](columnar_wide_table_projection.png)",
+          "to": "](/papers-assets/empirical_evaluation_columnar_formats/columnar_wide_table_projection.png)"
+        }
+      ],
+      "dateBasis": "Last source commit timestamp, not publication date"
+    },
+    {
+      "source": "_papers/facebook_haystack_object_store/finding_needle_in_haystack.md",
+      "target": "src/content/posts/facebook-haystack-object-store.md",
+      "url": "/papers/facebook-haystack-object-store/",
+      "kind": "paper-note",
+      "sha256": "73f76c1ec8780008e612eae1587d8ad4dc5984d0937695f6d7e98f4daeee5d64",
+      "rewrites": [
+        {
+          "from": "./cache_hit.png",
+          "to": "/papers-assets/facebook_haystack_object_store/cache_hit.png"
+        },
+        {
+          "from": "./cumul_distribution_daily_photos_request.png",
+          "to": "/papers-assets/facebook_haystack_object_store/cumul_distribution_daily_photos_request.png"
+        },
+        {
+          "from": "./daily_photo_traffic.png",
+          "to": "/papers-assets/facebook_haystack_object_store/daily_photo_traffic.png"
+        },
+        {
+          "from": "./fig10_prod_store_loads.png",
+          "to": "/papers-assets/facebook_haystack_object_store/fig10_prod_store_loads.png"
+        },
+        {
+          "from": "./fig11_prod_latency.png",
+          "to": "/papers-assets/facebook_haystack_object_store/fig11_prod_latency.png"
+        },
+        {
+          "from": "./fig6_index_file_layout.png",
+          "to": "/papers-assets/facebook_haystack_object_store/fig6_index_file_layout.png"
+        },
+        {
+          "from": "./fig8_store_writes_volume.png",
+          "to": "/papers-assets/facebook_haystack_object_store/fig8_store_writes_volume.png"
+        },
+        {
+          "from": "./haystack_design.png",
+          "to": "/papers-assets/facebook_haystack_object_store/haystack_design.png"
+        },
+        {
+          "from": "./haystack_nfs_design.png",
+          "to": "/papers-assets/facebook_haystack_object_store/haystack_nfs_design.png"
+        },
+        {
+          "from": "./haystack_store_file_layout.png",
+          "to": "/papers-assets/facebook_haystack_object_store/haystack_store_file_layout.png"
+        },
+        {
+          "from": "./haystack_uploading_photo.png",
+          "to": "/papers-assets/facebook_haystack_object_store/haystack_uploading_photo.png"
+        },
+        {
+          "from": "./inode.png",
+          "to": "/papers-assets/facebook_haystack_object_store/inode.png"
+        },
+        {
+          "from": "./table1_needle_fields.png",
+          "to": "/papers-assets/facebook_haystack_object_store/table1_needle_fields.png"
+        },
+        {
+          "from": "./table2_index_fields.png",
+          "to": "/papers-assets/facebook_haystack_object_store/table2_index_fields.png"
+        }
+      ],
+      "dateBasis": "Last source commit timestamp, not publication date"
+    },
+    {
+      "source": "_publications/2009-10-01-paper-title-number-1.md",
+      "url": "/publication/2009-10-01-paper-title-number-1",
+      "kind": "legacy-page",
+      "sha256": "4f3ad59a8739f07c077df57b237d24cdfe4a64059bc7c36d76d58602575e9d8a",
+      "target": "public/legacy/_publications/2009-10-01-paper-title-number-1.md.txt"
+    },
+    {
+      "source": "_publications/2010-10-01-paper-title-number-2.md",
+      "url": "/publication/2010-10-01-paper-title-number-2",
+      "kind": "legacy-page",
+      "sha256": "5386fec0f675e7f4f39370b6ec1328a03caf51df33a9078a037653be08e29f62",
+      "target": "public/legacy/_publications/2010-10-01-paper-title-number-2.md.txt"
+    },
+    {
+      "source": "_publications/2015-10-01-paper-title-number-3.md",
+      "url": "/publication/2015-10-01-paper-title-number-3",
+      "kind": "legacy-page",
+      "sha256": "702e09c763f7058f501f3b97c027a6ac2991ea416dba911ec6861ae06a08983e",
+      "target": "public/legacy/_publications/2015-10-01-paper-title-number-3.md.txt"
+    },
+    {
+      "source": "_portfolio/portfolio-1.md",
+      "url": "/portfolio/portfolio-1/",
+      "kind": "legacy-page",
+      "sha256": "4eaee1664c6f9b41ee6968d20e693d6a7d47c00c3e895f878c0019b81004a8f1",
+      "target": "public/legacy/_portfolio/portfolio-1.md.txt"
+    },
+    {
+      "source": "_portfolio/portfolio-2.html",
+      "url": "/portfolio/portfolio-2/",
+      "kind": "legacy-page",
+      "sha256": "4d089263743e2498f1104d302339ab98fd594b8bca67a71fdf04684f1c8c12ad",
+      "target": "public/legacy/_portfolio/portfolio-2.html.txt"
+    },
+    {
+      "source": "_talks/2012-03-01-talk-1.md",
+      "url": "/talks/2012-03-01-talk-1",
+      "kind": "legacy-page",
+      "sha256": "580d4dc0ed84fa72d66d0334935760a205738b38649a76c13374c8f0d9079442",
+      "target": "public/legacy/_talks/2012-03-01-talk-1.md.txt"
+    },
+    {
+      "source": "_talks/2013-03-01-tutorial-1.md",
+      "url": "/talks/2013-03-01-tutorial-1",
+      "kind": "legacy-page",
+      "sha256": "4cd318735755c437c247daeff15076b2cd20c24500c71718f9dc6429a5b9286e",
+      "target": "public/legacy/_talks/2013-03-01-tutorial-1.md.txt"
+    },
+    {
+      "source": "_talks/2014-02-01-talk-2.md",
+      "url": "/talks/2014-02-01-talk-2",
+      "kind": "legacy-page",
+      "sha256": "ba5f28a670980a796b2a7bc86f24336f37c6cec8ece57a14a9c7b9723c703a00",
+      "target": "public/legacy/_talks/2014-02-01-talk-2.md.txt"
+    },
+    {
+      "source": "_talks/2014-03-01-talk-3.md",
+      "url": "/talks/2014-03-01-talk-3",
+      "kind": "legacy-page",
+      "sha256": "23e77e8db43a72ea50c3e678522c5c32c4fd33e3967fbd60792fce6fa75da222",
+      "target": "public/legacy/_talks/2014-03-01-talk-3.md.txt"
+    },
+    {
+      "source": "_teaching/2014-spring-teaching-1.md",
+      "url": "/teaching/2014-spring-teaching-1",
+      "kind": "legacy-page",
+      "sha256": "de9051ff76a1fd10cd3a430d14340976764b19d6f1f32053e1177889a0c4ba74",
+      "target": "public/legacy/_teaching/2014-spring-teaching-1.md.txt"
+    },
+    {
+      "source": "_teaching/2015-spring-teaching-2.md",
+      "url": "/teaching/2015-spring-teaching-1",
+      "kind": "legacy-page",
+      "sha256": "c0cccf12d2df971f1058f60ebd0760ad0e21c467e1eeffb259606078d2e76dbb",
+      "target": "public/legacy/_teaching/2015-spring-teaching-2.md.txt"
+    },
+    {
+      "source": "_drafts/post-draft.md",
+      "url": null,
+      "kind": "draft",
+      "sha256": "fa72f2397da6c9f830983d4fc94b24756dd7ceafc9fcd63427dae0f987e5aacc",
+      "target": "_drafts/post-draft.md"
+    }
+  ],
+  "assets": [
+    {
+      "source": "images/3953273590_704e3899d5_m.jpg",
+      "url": "/images/3953273590_704e3899d5_m.jpg",
+      "sha256": "5c7bf21875d58fd659e9d776b67de8ed3a9987790d9796eaec19e398cf31761e"
+    },
+    {
+      "source": "images/500x300.png",
+      "url": "/images/500x300.png",
+      "sha256": "979e1be830672c5888c1a8144c5b40b7244136f70028e457584ae3068f4596ae"
+    },
+    {
+      "source": "images/bio-photo-2.jpg",
+      "url": "/images/bio-photo-2.jpg",
+      "sha256": "a6a33b1384aab43201fb97f301af47ce417e9af4d16582857f50320e47f42487"
+    },
+    {
+      "source": "images/bio-photo.jpg",
+      "url": "/images/bio-photo.jpg",
+      "sha256": "619517dbf49b760aa3c433f0bb6de424d1919074777a1153d549284b7945c11a"
+    },
+    {
+      "source": "images/browserconfig.xml",
+      "url": "/images/browserconfig.xml",
+      "sha256": "d747da16010b583b6f0fb46b698cbd98e792bfb06963994034869c0c6ddcdba9"
+    },
+    {
+      "source": "images/editing-talk.png",
+      "url": "/images/editing-talk.png",
+      "sha256": "3177d9b8696c73781bf6fe320aa92ae5aa500f29942d104583442b1a712d74f8"
+    },
+    {
+      "source": "images/foo-bar-identity-th.jpg",
+      "url": "/images/foo-bar-identity-th.jpg",
+      "sha256": "78964e9d6c7399b4a3ff97ffe0a5e554c3215f207c35fabc70bc561e0bb60b82"
+    },
+    {
+      "source": "images/foo-bar-identity.jpg",
+      "url": "/images/foo-bar-identity.jpg",
+      "sha256": "8b315d6ae1e2adefc6683d070f9a29d05bd68cd41e3c291c054f21ca4d81030e"
+    },
+    {
+      "source": "images/image-alignment-1200x4002.jpg",
+      "url": "/images/image-alignment-1200x4002.jpg",
+      "sha256": "5998988c2105c2d48274c512fc9edfc988770cc1546573957f40b97fa01c2eb9"
+    },
+    {
+      "source": "images/image-alignment-150x150.jpg",
+      "url": "/images/image-alignment-150x150.jpg",
+      "sha256": "7325611dd32c839e7255eab043603846e6934893f6cd8db0be4e1087246a78e6"
+    },
+    {
+      "source": "images/image-alignment-300x200.jpg",
+      "url": "/images/image-alignment-300x200.jpg",
+      "sha256": "645b8d1100d4a10f527b64dd05f2aaf4731a8f28149bb1cda61d6138bf0cc6f0"
+    },
+    {
+      "source": "images/image-alignment-580x300.jpg",
+      "url": "/images/image-alignment-580x300.jpg",
+      "sha256": "b60ab421c545a35f6c1a672a55481867dfbd19ff5b4017c1b0dc4497b29a22d0"
+    },
+    {
+      "source": "images/manifest.json",
+      "url": "/images/manifest.json",
+      "sha256": "4a0cc17cbeed804dc3fabfe39d6c1d72ad418a7b08eb469364ffe24bb391bdf2"
+    },
+    {
+      "source": "images/mstile-144x144.png",
+      "url": "/images/mstile-144x144.png",
+      "sha256": "6d7b2e6b7ef6535977fbfbe05eaa5e801b00103d920c3e2c7ddc7c29ee904698"
+    },
+    {
+      "source": "images/mstile-150x150.png",
+      "url": "/images/mstile-150x150.png",
+      "sha256": "a311dd950ab1c6359e86745a592f734f8a668142f5d5b9a818e56818755697c0"
+    },
+    {
+      "source": "images/mstile-310x150.png",
+      "url": "/images/mstile-310x150.png",
+      "sha256": "8c99a8d250718b847b840b2922420e5b74a0df28ef1856dc96045883e323ad23"
+    },
+    {
+      "source": "images/mstile-310x310.png",
+      "url": "/images/mstile-310x310.png",
+      "sha256": "84f8b2b20024cc501e49873d93b43b7750da127d008172466eb2673ca5b02944"
+    },
+    {
+      "source": "images/mstile-70x70.png",
+      "url": "/images/mstile-70x70.png",
+      "sha256": "3c5ef6a88e4cc8486af6ec878357ea4979b6febbb9c2bfb05a475c8be5578279"
+    },
+    {
+      "source": "images/paragraph-indent.png",
+      "url": "/images/paragraph-indent.png",
+      "sha256": "ff9d2d5a46514a8893e090e9d40a79b2a0f45e12711a5a74f8c58832bc0adf5c"
+    },
+    {
+      "source": "images/paragraph-no-indent.png",
+      "url": "/images/paragraph-no-indent.png",
+      "sha256": "7228cb80a792d1b2817ee7c2f430bdc7c9166d2f06931a5a70661f8b6d282cc9"
+    },
+    {
+      "source": "images/profile.png",
+      "url": "/images/profile.png",
+      "sha256": "2505b349eba19303d59070cbe852f0ff60a1c5e47a6dfadcdd645dfcba9ecb6f"
+    },
+    {
+      "source": "images/safari-pinned-tab.svg",
+      "url": "/images/safari-pinned-tab.svg",
+      "sha256": "8c12f1e89c965f4affefe5a14b49a9703326d2f47cbb6996e0074b29da0af5e9"
+    },
+    {
+      "source": "images/site-logo.png",
+      "url": "/images/site-logo.png",
+      "sha256": "2860aad66ffb7e54099624b71a1cc28f556a4c0a93c4332fc87cd070172c6d3d"
+    },
+    {
+      "source": "files/paper1.pdf",
+      "url": "/files/paper1.pdf",
+      "sha256": "0fa3ddeabd3847bd77d9ce2ef0cf695ec3329a5e0bbbe84fa9f415721fb4593d"
+    },
+    {
+      "source": "files/paper2.pdf",
+      "url": "/files/paper2.pdf",
+      "sha256": "f07e72c2f09821b5f5bf10eb8659858261ed534c1d4bd02ee90b33996a933da2"
+    },
+    {
+      "source": "files/paper3.pdf",
+      "url": "/files/paper3.pdf",
+      "sha256": "d88074d5e623b09259e0ea46ac09a3b08460d811ad0f32e4e0ea77df7be9d5d6"
+    },
+    {
+      "source": "assets/css/academicons.css",
+      "url": "/assets/css/academicons.css",
+      "sha256": "8ddb8378dd9ab6a0e67f4ba79ecd2e3909045168ecd19111d1ce62ead3e133d5"
+    },
+    {
+      "source": "assets/css/academicons.min.css",
+      "url": "/assets/css/academicons.min.css",
+      "sha256": "0c9212a44088b2629a25bf60cd4ac0ffc7dfff6ac57cd7af9389f91782269295"
+    },
+    {
+      "source": "assets/css/collapse.css",
+      "url": "/assets/css/collapse.css",
+      "sha256": "de3558705c2cb353f1ed702e3ea5b33efc19186fe5b2128f93ea52d30fd658d8"
+    },
+    {
+      "source": "assets/css/main.scss",
+      "url": "/assets/css/main.scss",
+      "sha256": "622feb06d7992a76a9d40c11444fb773f4b5cd65460b0901aea6f00784a73e75"
+    },
+    {
+      "source": "assets/fonts/academicons.eot",
+      "url": "/assets/fonts/academicons.eot",
+      "sha256": "8682d641a9ad2c7f47417276608b91e9ede388ed86a59a5abb30c18be5c45f85"
+    },
+    {
+      "source": "assets/fonts/academicons.svg",
+      "url": "/assets/fonts/academicons.svg",
+      "sha256": "157fc3285ce4a3ae8ab339d3f323dba24b1a9db27539af1df1bdf5383a019a47"
+    },
+    {
+      "source": "assets/fonts/academicons.ttf",
+      "url": "/assets/fonts/academicons.ttf",
+      "sha256": "4bd6a7a0f381d58523eea0e78c0f075fae0385581ed31dac1376127fc9dfe531"
+    },
+    {
+      "source": "assets/fonts/academicons.woff",
+      "url": "/assets/fonts/academicons.woff",
+      "sha256": "40dc519d708cbb4b06ba3b0f6377e0f5972ed19464e5fd389b23102974eebf71"
+    },
+    {
+      "source": "assets/fonts/fa-brands-400.eot",
+      "url": "/assets/fonts/fa-brands-400.eot",
+      "sha256": "9158ee2ef88ea648444ba1c9fcea310baa1e5e4e5fe86e338dcd29fcb081cfc7"
+    },
+    {
+      "source": "assets/fonts/fa-brands-400.svg",
+      "url": "/assets/fonts/fa-brands-400.svg",
+      "sha256": "7aadbc4ac7f80413de00052694c1a44e0b0dbf0e2d7f739c628b88b28bb72bfa"
+    },
+    {
+      "source": "assets/fonts/fa-brands-400.ttf",
+      "url": "/assets/fonts/fa-brands-400.ttf",
+      "sha256": "dbd08d025602b79ce71910b2a68577959cbf2ef02fc664e243bf50277754fdfc"
+    },
+    {
+      "source": "assets/fonts/fa-brands-400.woff",
+      "url": "/assets/fonts/fa-brands-400.woff",
+      "sha256": "ca441c07992a7160e4d2622e78f8970c9b92f176694c8dc07592326496a801d6"
+    },
+    {
+      "source": "assets/fonts/fa-brands-400.woff2",
+      "url": "/assets/fonts/fa-brands-400.woff2",
+      "sha256": "05dbc51654b96590d176c27efbcef2cf4ac0497499a9f28b731b73eea399070c"
+    },
+    {
+      "source": "assets/fonts/fa-regular-400.eot",
+      "url": "/assets/fonts/fa-regular-400.eot",
+      "sha256": "169416887c9d3c310bf02a12eaf82269d4cf77b16af2e91745b1c152bba0061d"
+    },
+    {
+      "source": "assets/fonts/fa-regular-400.svg",
+      "url": "/assets/fonts/fa-regular-400.svg",
+      "sha256": "59dc408283c57a47d27b2a2852726f43db3285cab7e3d6297e8da7c901857f7b"
+    },
+    {
+      "source": "assets/fonts/fa-regular-400.ttf",
+      "url": "/assets/fonts/fa-regular-400.ttf",
+      "sha256": "ecb5719eb6408359d91fd2530646064a3f251aed691fd48277289cc8d6d53dfa"
+    },
+    {
+      "source": "assets/fonts/fa-regular-400.woff",
+      "url": "/assets/fonts/fa-regular-400.woff",
+      "sha256": "f101b8f70e36be2e9004222875e9fd45b263f72769c68e25e3c7525d3871728b"
+    },
+    {
+      "source": "assets/fonts/fa-regular-400.woff2",
+      "url": "/assets/fonts/fa-regular-400.woff2",
+      "sha256": "92ba7bfaa43a35c94353e96860d99376313ee9b5fce6124d4e64067280f9a841"
+    },
+    {
+      "source": "assets/fonts/fa-solid-900.eot",
+      "url": "/assets/fonts/fa-solid-900.eot",
+      "sha256": "690be61fe58020511558ce4b04375178872629f6c737ed1b332aec65855fd937"
+    },
+    {
+      "source": "assets/fonts/fa-solid-900.svg",
+      "url": "/assets/fonts/fa-solid-900.svg",
+      "sha256": "22f6af77ffeeb267c5270fa1e50681ae01a9a19f8e9ef976798e0196c941ade6"
+    },
+    {
+      "source": "assets/fonts/fa-solid-900.ttf",
+      "url": "/assets/fonts/fa-solid-900.ttf",
+      "sha256": "b97adad7ece9792af4122ae88103cad8fab54558a529c4ba79b5224c2b02ebe9"
+    },
+    {
+      "source": "assets/fonts/fa-solid-900.woff",
+      "url": "/assets/fonts/fa-solid-900.woff",
+      "sha256": "8fb19633f125ca466a45da9e4cf291d8b9519dd74c214f99dde835ef83f3ab96"
+    },
+    {
+      "source": "assets/fonts/fa-solid-900.woff2",
+      "url": "/assets/fonts/fa-solid-900.woff2",
+      "sha256": "7798165ee5a3c6809310d8261dcbe7c8d0c12d795b7b09a71af3eb86ec8f33f2"
+    },
+    {
+      "source": "assets/js/_main.js",
+      "url": "/assets/js/_main.js",
+      "sha256": "8f2c951de893f80cefaf8a04e435360d8aed0d49c962e253d0d61e375c781577"
+    },
+    {
+      "source": "assets/js/collapse.js",
+      "url": "/assets/js/collapse.js",
+      "sha256": "50c837147a7517648fac3a901cb65f38d70bef3bed3f5374f849643d5183a2de"
+    },
+    {
+      "source": "assets/js/main.min.js",
+      "url": "/assets/js/main.min.js",
+      "sha256": "a095bd9fc67b743c81944eff8170335d82819b62c1d0dbb8fd672b440753f40e"
+    },
+    {
+      "source": "assets/js/plugins/jquery.fitvids.js",
+      "url": "/assets/js/plugins/jquery.fitvids.js",
+      "sha256": "6ed21976d75c5cda23d8b4ddaadea659cea365a95d49e16a85f5ee7f41814d74"
+    },
+    {
+      "source": "assets/js/plugins/jquery.greedy-navigation.js",
+      "url": "/assets/js/plugins/jquery.greedy-navigation.js",
+      "sha256": "1c17cee1abd6f9ff360b757d5be37c4b5eaf4d7ed9ed47091f5d1e5647889fa7"
+    },
+    {
+      "source": "assets/js/plugins/jquery.magnific-popup.js",
+      "url": "/assets/js/plugins/jquery.magnific-popup.js",
+      "sha256": "126ad68514f770cc32dc989eceddf38a81539e68f15229b56130063e1ee647a1"
+    },
+    {
+      "source": "assets/js/plugins/jquery.smooth-scroll.min.js",
+      "url": "/assets/js/plugins/jquery.smooth-scroll.min.js",
+      "sha256": "e32af58138714978e72d5af2cc687dc856883ba42fcac80350408baef0ba8a16"
+    },
+    {
+      "source": "assets/js/plugins/stickyfill.min.js",
+      "url": "/assets/js/plugins/stickyfill.min.js",
+      "sha256": "d354f58e183ed80cfd5f1e23cc3eba3913c3cc9b5e16ceef19adea6b68560336"
+    },
+    {
+      "source": "assets/js/vendor/jquery/jquery-1.12.4.min.js",
+      "url": "/assets/js/vendor/jquery/jquery-1.12.4.min.js",
+      "sha256": "8c2812ded6436715279f8fd8db58de307aa39ab0296fe3cf0e879067c51e9b18"
+    },
+    {
+      "source": "talkmap/leaflet_dist/MarkerCluster.Default.css",
+      "url": "/talkmap/leaflet_dist/MarkerCluster.Default.css",
+      "sha256": "f2f2cc133159476073016c74e84d32ec00d69733121dab18e377246550324911"
+    },
+    {
+      "source": "talkmap/leaflet_dist/MarkerCluster.css",
+      "url": "/talkmap/leaflet_dist/MarkerCluster.css",
+      "sha256": "f0596a4f11c3d4226b2b6a6df09b6190305ba18a66b388f909ad20265d610bb6"
+    },
+    {
+      "source": "talkmap/leaflet_dist/leaflet.markercluster-src.js",
+      "url": "/talkmap/leaflet_dist/leaflet.markercluster-src.js",
+      "sha256": "c935ebba5e9c79e272a1502d10614bd8e5196073e2960e360729c8a639265810"
+    },
+    {
+      "source": "talkmap/leaflet_dist/leaflet.markercluster.js",
+      "url": "/talkmap/leaflet_dist/leaflet.markercluster.js",
+      "sha256": "aac5dd13650ec1c549ea3d8bd8cf6664ce4cbaa93b0ed112997021800cf32418"
+    },
+    {
+      "source": "talkmap/leaflet_dist/screen.css",
+      "url": "/talkmap/leaflet_dist/screen.css",
+      "sha256": "308465623af7d1bac55c0b681e1c3b6865e9beb9fac3f35b989771996eb207e0"
+    },
+    {
+      "source": "talkmap/map.html",
+      "url": "/talkmap/map.html",
+      "sha256": "42468267430ada7146dd86b031645cea574f42dd4a26c05c318916febe9fc3d8"
+    },
+    {
+      "source": "talkmap/org-locations.js",
+      "url": "/talkmap/org-locations.js",
+      "sha256": "0ceadefda87f782e77930d30705e3911a7551b548b21c36d3f713d131509ae65"
+    },
+    {
+      "source": "_papers/building_db_on_s3/fig1_shared_disk_architecture.png",
+      "url": "/papers-assets/building_db_on_s3/fig1_shared_disk_architecture.png",
+      "sha256": "60a9c170731ed2387cd64bf51a879ad8413150875a5acfd56ffd92de2923bb17"
+    },
+    {
+      "source": "_papers/building_db_on_s3/fig2_basic_commit_protocol.png",
+      "url": "/papers-assets/building_db_on_s3/fig2_basic_commit_protocol.png",
+      "sha256": "1d38e7b4486e13f202d3857349015f9c0a05a4c4614d70d4f4d6867ab581b2e8"
+    },
+    {
+      "source": "_papers/building_db_on_s3/fig3_cost_vs_checkpoint_interval.png",
+      "url": "/papers-assets/building_db_on_s3/fig3_cost_vs_checkpoint_interval.png",
+      "sha256": "a47b455a6b58cf40889641c33227de8e97bccea61dcbbbc78c7450c2d58528e8"
+    },
+    {
+      "source": "_papers/building_db_on_s3/table1_read_pagesize_vs_responsetime_vs_bw.png",
+      "url": "/papers-assets/building_db_on_s3/table1_read_pagesize_vs_responsetime_vs_bw.png",
+      "sha256": "5d28150a7f7ef73b701cfbf849e6b36174d86d07263c1243f173e3ea03ac3a88"
+    },
+    {
+      "source": "_papers/building_db_on_s3/table3_building_s3_running_time_txns.png",
+      "url": "/papers-assets/building_db_on_s3/table3_building_s3_running_time_txns.png",
+      "sha256": "58bc7d1a719f73d98a8bcac5eac11af84056fb4b7ad01c2d8b10bfa51e0801ff"
+    },
+    {
+      "source": "_papers/building_db_on_s3/table4_cost_1000_txns.png",
+      "url": "/papers-assets/building_db_on_s3/table4_cost_1000_txns.png",
+      "sha256": "31bc07bcb0bdf830e7d25b8ac00474f50d04750b6cc08d4ac86ab790112f2d44"
+    },
+    {
+      "source": "_papers/empirical_evaluation_columnar_formats/columnar_benchmark.png",
+      "url": "/papers-assets/empirical_evaluation_columnar_formats/columnar_benchmark.png",
+      "sha256": "d2ecf3127845b68415ff57174ae33cd1dc2ae31409247679d1e8bb9d449ff2c9"
+    },
+    {
+      "source": "_papers/empirical_evaluation_columnar_formats/columnar_benchmark_result.png",
+      "url": "/papers-assets/empirical_evaluation_columnar_formats/columnar_benchmark_result.png",
+      "sha256": "786fcbdd875c6aaa03d3ed6678a191f4cfc4b15e52a666ace0288a5668984f15"
+    },
+    {
+      "source": "_papers/empirical_evaluation_columnar_formats/columnar_embedding_efficiency.png",
+      "url": "/papers-assets/empirical_evaluation_columnar_formats/columnar_embedding_efficiency.png",
+      "sha256": "53372427a4d1839064f2c13a21a2d8bc4abe78621026754a8fb0316808223ec4"
+    },
+    {
+      "source": "_papers/empirical_evaluation_columnar_formats/columnar_feature_taxonomy.png",
+      "url": "/papers-assets/empirical_evaluation_columnar_formats/columnar_feature_taxonomy.png",
+      "sha256": "3b8147bf15a23434c31acba471029ca2b97067881814cfe1fc8257fc6e210812"
+    },
+    {
+      "source": "_papers/empirical_evaluation_columnar_formats/columnar_format_layout.png",
+      "url": "/papers-assets/empirical_evaluation_columnar_formats/columnar_format_layout.png",
+      "sha256": "885f717592dbc9cde630dd2eeceb36ce76a987e3617dd994ec4aef2d9253c0de"
+    },
+    {
+      "source": "_papers/empirical_evaluation_columnar_formats/columnar_gpu_decoding.png",
+      "url": "/papers-assets/empirical_evaluation_columnar_formats/columnar_gpu_decoding.png",
+      "sha256": "df15478b32c94d2ba3637b4e4663d0e3c13f287eb1c94a725474e927aea015a8"
+    },
+    {
+      "source": "_papers/empirical_evaluation_columnar_formats/columnar_wide_table_projection.png",
+      "url": "/papers-assets/empirical_evaluation_columnar_formats/columnar_wide_table_projection.png",
+      "sha256": "9b8a5a1bcf8096e3b5aba13b6a7a418a16bbb325ac45d0a7683074694d5329b2"
+    },
+    {
+      "source": "_papers/facebook_haystack_object_store/cache_hit.png",
+      "url": "/papers-assets/facebook_haystack_object_store/cache_hit.png",
+      "sha256": "bedb48c4f8f53299963b62e685e9aaf88d893bb87b8179e26c2103a10ac145a8"
+    },
+    {
+      "source": "_papers/facebook_haystack_object_store/cumul_distribution_daily_photos_request.png",
+      "url": "/papers-assets/facebook_haystack_object_store/cumul_distribution_daily_photos_request.png",
+      "sha256": "6d06f181798a4c53f1102a9a52f9e3390fc3c987bbd0b0e9a731d1ba4562d5cf"
+    },
+    {
+      "source": "_papers/facebook_haystack_object_store/daily_photo_traffic.png",
+      "url": "/papers-assets/facebook_haystack_object_store/daily_photo_traffic.png",
+      "sha256": "a032702b16fc8b5dd97ce2405d364474555734a7344d1f20b31784616866e112"
+    },
+    {
+      "source": "_papers/facebook_haystack_object_store/fig10_prod_store_loads.png",
+      "url": "/papers-assets/facebook_haystack_object_store/fig10_prod_store_loads.png",
+      "sha256": "b0bf060d44745d531451e25b9759a89845f9fc849c968cf5760a36b08e3d700e"
+    },
+    {
+      "source": "_papers/facebook_haystack_object_store/fig11_prod_latency.png",
+      "url": "/papers-assets/facebook_haystack_object_store/fig11_prod_latency.png",
+      "sha256": "d3a2cd081a73c04b71fbf95df76560ce6af44c2a8523aff12c5663ee7768f93a"
+    },
+    {
+      "source": "_papers/facebook_haystack_object_store/fig6_index_file_layout.png",
+      "url": "/papers-assets/facebook_haystack_object_store/fig6_index_file_layout.png",
+      "sha256": "2435be12797367349d9724253e2bf34cc4e213c9b319758499f3aa13828da98f"
+    },
+    {
+      "source": "_papers/facebook_haystack_object_store/fig8_store_writes_volume.png",
+      "url": "/papers-assets/facebook_haystack_object_store/fig8_store_writes_volume.png",
+      "sha256": "c4ac164aba1bc5604eb3261a93d967f2e9e2aae67f72d4c92a571087d4db0745"
+    },
+    {
+      "source": "_papers/facebook_haystack_object_store/haystack_design.png",
+      "url": "/papers-assets/facebook_haystack_object_store/haystack_design.png",
+      "sha256": "24798217d217f0dc591b2feb27158d7dfec99ef04f8050d268f28ac502263d25"
+    },
+    {
+      "source": "_papers/facebook_haystack_object_store/haystack_nfs_design.png",
+      "url": "/papers-assets/facebook_haystack_object_store/haystack_nfs_design.png",
+      "sha256": "939e16898bb4cc303f0ef8ed59ab8a80102a233bc0bc5292410a661ab3a5876b"
+    },
+    {
+      "source": "_papers/facebook_haystack_object_store/haystack_store_file_layout.png",
+      "url": "/papers-assets/facebook_haystack_object_store/haystack_store_file_layout.png",
+      "sha256": "5f6ca3c46754d0987787bd4917d2b9f899cf9b77f3b735a02baabc1045d7b852"
+    },
+    {
+      "source": "_papers/facebook_haystack_object_store/haystack_uploading_photo.png",
+      "url": "/papers-assets/facebook_haystack_object_store/haystack_uploading_photo.png",
+      "sha256": "06e7645fb66fb9f890e38e6b8cf1a30b3b9af36e177385b7aa0f2b8e59838743"
+    },
+    {
+      "source": "_papers/facebook_haystack_object_store/inode.c",
+      "url": "/papers-assets/facebook_haystack_object_store/inode.c",
+      "sha256": "79cb2d22c6c74280ccafebcb5398f32a8ffe0f0f0a35d50ce28ebc798830bedb"
+    },
+    {
+      "source": "_papers/facebook_haystack_object_store/inode.png",
+      "url": "/papers-assets/facebook_haystack_object_store/inode.png",
+      "sha256": "e34b7522412ca15a930b64839ddce1c5a7ba61389683f4cadf1342b5065dfa1e"
+    },
+    {
+      "source": "_papers/facebook_haystack_object_store/table1_needle_fields.png",
+      "url": "/papers-assets/facebook_haystack_object_store/table1_needle_fields.png",
+      "sha256": "8ffb6ba96e2dd5c02142beb002cba2689108c02dab3b6d81d1bd03ed3899beb8"
+    },
+    {
+      "source": "_papers/facebook_haystack_object_store/table2_index_fields.png",
+      "url": "/papers-assets/facebook_haystack_object_store/table2_index_fields.png",
+      "sha256": "efeaa2ddcecfc1a515532dbafb80ba06de9717c5c442a536965b9be3e42e0321"
+    },
+    {
+      "source": "_posts/SparkCRC/parquet_file_format.png",
+      "url": "/SparkCRC/parquet_file_format.png",
+      "sha256": "2db39d7ef7fa7bb229029457fdc2d4dfaf76f790eea9df0af94901fedf729841"
+    },
+    {
+      "source": "_posts/SparkCRC/parquet_footer_structure.png",
+      "url": "/SparkCRC/parquet_footer_structure.png",
+      "sha256": "b37fd9927ca88bedd62886215a7bee92882c1e99bc7f6dd1391ddfea94e70da1"
+    }
+  ],
+  "knownMissingImages": [
+    "/TwoPhaseCommit/img.png",
+    "/TwoPhaseCommit/img_1.png",
+    "/TwoPhaseCommit/img_2.png",
+    "/TwoPhaseCommit/img_3.png",
+    "/TwoPhaseCommit/img_4.png"
+  ]
+}

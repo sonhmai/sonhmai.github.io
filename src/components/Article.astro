@@ -1,0 +1,44 @@
+---
+import { render, type CollectionEntry } from 'astro:content';
+import PostLayout from '@/layouts/PostLayout.astro';
+import Header from '@/components/Header.astro';
+import Footer from '@/components/Footer.astro';
+import Datetime from '@/components/Datetime.astro';
+import Tag from '@/components/Tag.astro';
+import { slugifyStr } from '@/utils/slugify';
+
+type Props = { post: CollectionEntry<'posts'> };
+const { post } = Astro.props;
+const { Content } = await render(post);
+const { title, description, canonicalURL, pubDatetime, note, tags } = post.data;
+---
+<PostLayout {title} {description} {canonicalURL} pubDatetime={note ? undefined : pubDatetime}>
+  <Header />
+  <main id="main-content" class="app-layout my-10" data-pagefind-body>
+    <a class="text-accent text-sm underline" href="/writing/">All writing</a>
+    <h1 class="mt-6 text-3xl font-bold" data-pagefind-meta="title">{title}</h1>
+    <div class="my-3 text-sm text-muted-foreground">
+      {note ? <span>Paper notes · Source updated <Datetime {pubDatetime} /></span> : <Datetime {pubDatetime} />}
+    </div>
+    <article id="article" class="app-prose mt-8 max-w-full prose-pre:bg-(--shiki-light-bg) dark:prose-pre:bg-(--shiki-dark-bg)"><Content /></article>
+    <ul class="my-10 flex flex-wrap gap-4">{tags.map(tag => <Tag tag={slugifyStr(tag)} tagName={tag} />)}</ul>
+  </main>
+  <Footer />
+</PostLayout>
+<script>
+  async function renderDiagrams() {
+    const blocks = document.querySelectorAll<HTMLElement>('pre[data-language=mermaid]');
+    if (!blocks.length) return;
+    const { default: mermaid } = await import('mermaid');
+    mermaid.initialize({ startOnLoad: false, securityLevel: 'strict', theme: document.documentElement.dataset.theme === 'dark' ? 'dark' : 'default' });
+    for (const [index, block] of [...blocks].entries()) {
+      const source = block.textContent ?? '';
+      const { svg } = await mermaid.render(`diagram-${index}`, source);
+      const figure = document.createElement('figure');
+      figure.className = 'mermaid-diagram';
+      figure.innerHTML = svg;
+      block.replaceWith(figure);
+    }
+  }
+  document.addEventListener('astro:page-load', renderDiagrams);
+</script>

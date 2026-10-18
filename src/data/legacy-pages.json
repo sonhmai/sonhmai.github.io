@@ -1,0 +1,122 @@
+[
+  {
+    "url": "/archive-layout-with-content/",
+    "title": "Archive Layout with Content",
+    "source": "/legacy/_pages/archive-layout-with-content.md.txt"
+  },
+  {
+    "url": "/categories/",
+    "title": "Posts by Category",
+    "source": "/legacy/_pages/category-archive.html.txt"
+  },
+  {
+    "url": "/collection-archive/",
+    "title": "Posts by Collection",
+    "source": "/legacy/_pages/collection-archive.html.txt"
+  },
+  {
+    "url": "/cv/",
+    "title": "CV",
+    "source": "/legacy/_pages/cv.md.txt"
+  },
+  {
+    "url": "/markdown/",
+    "title": "Markdown",
+    "source": "/legacy/_pages/markdown.md.txt"
+  },
+  {
+    "url": "/non-menu-page/",
+    "title": "Page not in menu",
+    "source": "/legacy/_pages/non-menu-page.md.txt"
+  },
+  {
+    "url": "/page-archive/",
+    "title": "Page Archive",
+    "source": "/legacy/_pages/page-archive.html.txt"
+  },
+  {
+    "url": "/portfolio/",
+    "title": "Portfolio",
+    "source": "/legacy/_pages/portfolio.html.txt"
+  },
+  {
+    "url": "/publications/",
+    "title": "Publications",
+    "source": "/legacy/_pages/publications.md.txt"
+  },
+  {
+    "url": "/talkmap.html",
+    "title": "Talk map",
+    "source": "/legacy/_pages/talkmap.html.txt"
+  },
+  {
+    "url": "/talks/",
+    "title": "Talks and presentations",
+    "source": "/legacy/_pages/talks.html.txt"
+  },
+  {
+    "url": "/teaching/",
+    "title": "Teaching",
+    "source": "/legacy/_pages/teaching.html.txt"
+  },
+  {
+    "url": "/terms/",
+    "title": "Terms and Privacy Policy",
+    "source": "/legacy/_pages/terms.md.txt"
+  },
+  {
+    "url": "/publication/2009-10-01-paper-title-number-1",
+    "title": "Paper Title Number 1",
+    "source": "/legacy/_publications/2009-10-01-paper-title-number-1.md.txt"
+  },
+  {
+    "url": "/publication/2010-10-01-paper-title-number-2",
+    "title": "Paper Title Number 2",
+    "source": "/legacy/_publications/2010-10-01-paper-title-number-2.md.txt"
+  },
+  {
+    "url": "/publication/2015-10-01-paper-title-number-3",
+    "title": "Paper Title Number 3",
+    "source": "/legacy/_publications/2015-10-01-paper-title-number-3.md.txt"
+  },
+  {
+    "url": "/portfolio/portfolio-1/",
+    "title": "Portfolio item number 1",
+    "source": "/legacy/_portfolio/portfolio-1.md.txt"
+  },
+  {
+    "url": "/portfolio/portfolio-2/",
+    "title": "Portfolio item number 2",
+    "source": "/legacy/_portfolio/portfolio-2.html.txt"
+  },
+  {
+    "url": "/talks/2012-03-01-talk-1",
+    "title": "Talk 1 on Relevant Topic in Your Field",
+    "source": "/legacy/_talks/2012-03-01-talk-1.md.txt"
+  },
+  {
+    "url": "/talks/2013-03-01-tutorial-1",
+    "title": "Tutorial 1 on Relevant Topic in Your Field",
+    "source": "/legacy/_talks/2013-03-01-tutorial-1.md.txt"
+  },
+  {
+    "url": "/talks/2014-02-01-talk-2",
+    "title": "Talk 2 on Relevant Topic in Your Field",
+    "source": "/legacy/_talks/2014-02-01-talk-2.md.txt"
+  },
+  {
+    "url": "/talks/2014-03-01-talk-3",
+    "title": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
+    "source": "/legacy/_talks/2014-03-01-talk-3.md.txt"
+  },
+  {
+    "url": "/teaching/2014-spring-teaching-1",
+    "title": "Teaching experience 1",
+    "source": "/legacy/_teaching/2014-spring-teaching-1.md.txt"
+  },
+  {
+    "url": "/teaching/2015-spring-teaching-1",
+    "title": "Teaching experience 2",
+    "source": "/legacy/_teaching/2015-spring-teaching-2.md.txt"
+  }
+]
