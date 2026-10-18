@@ -1,0 +1,16 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import Header from '@/components/Header.astro';
+import Footer from '@/components/Footer.astro';
+---
+<Layout title="Projects | Son's blog">
+  <Header />
+  <main id="main-content" class="app-layout app-prose my-12">
+    <h1>Projects</h1>
+    <h2><a href="https://github.com/sonhmai/monix-mdc-log4j">Monix MDC example</a></h2>
+    <p>Sample code for propagating logging context through asynchronous Scala computations.</p>
+    <p>Read the <a href="/software/monix-async-and-mdc-in-scala">accompanying article</a>.</p>
+    <p><a href="https://github.com/sonhmai">More on GitHub</a></p>
+  </main>
+  <Footer />
+</Layout>

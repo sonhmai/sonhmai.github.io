@@ -1,0 +1,9 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '@/layouts/Layout.astro';
+import Header from '@/components/Header.astro';
+import Footer from '@/components/Footer.astro';
+import { getPostUrl } from '@/utils/getPostPaths';
+const posts = await getCollection('posts');
+---
+<Layout title="Sitemap | Son's blog"><Header /><main id="main-content" class="app-layout app-prose my-12"><h1>Sitemap</h1><ul>{['Writing','Projects','About','Search','Tags'].map(label => <li><a href={`/${label.toLowerCase()}/`}>{label}</a></li>)}{posts.map(post => <li><a href={getPostUrl(post.id,post.filePath)}>{post.data.title}</a></li>)}</ul></main><Footer /></Layout>

@@ -1,0 +1,21 @@
+{
+  "/software/": "/writing/",
+  "/year-archive/": "/writing/",
+  "/posts/": "/writing/",
+  "/wordpress/blog-posts/": "/year-archive/",
+  "/feed.xml": "/rss.xml",
+  "/about.html": "/about/",
+  "/posts/monixasyncandmdc/": "/software/monix-async-and-mdc-in-scala",
+  "/posts/classtagtypeerasure/": "/software/scala-classtag-and-type-erasure",
+  "/posts/rocksdb/": "/software/rocksdb",
+  "/posts/sparkcrc/": "/software/spark-crc",
+  "/posts/twophasecommit/": "/TwoPhaseCommit/",
+  "/resume": "/cv/",
+  "/md/": "/markdown/",
+  "/markdown.html": "/markdown/",
+  "/nmp/": "/non-menu-page/",
+  "/nmp.html": "/non-menu-page/",
+  "/posts/building-db-on-s3/": "/papers/building-db-on-s3/",
+  "/posts/empirical-evaluation-columnar-formats/": "/papers/empirical-evaluation-columnar-formats/",
+  "/posts/facebook-haystack-object-store/": "/papers/facebook-haystack-object-store/"
+}

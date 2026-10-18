@@ -1,0 +1,10 @@
+{
+  "monixasyncandmdc": "/software/monix-async-and-mdc-in-scala",
+  "classtagtypeerasure": "/software/scala-classtag-and-type-erasure",
+  "rocksdb": "/software/rocksdb",
+  "sparkcrc": "/software/spark-crc",
+  "twophasecommit": "/TwoPhaseCommit/",
+  "building-db-on-s3": "/papers/building-db-on-s3/",
+  "empirical-evaluation-columnar-formats": "/papers/empirical-evaluation-columnar-formats/",
+  "facebook-haystack-object-store": "/papers/facebook-haystack-object-store/"
+}
